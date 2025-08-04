@@ -12,7 +12,7 @@ public class StudentAtendanceManager {
             System.out.println("2.Mark present");
             System.out.println("3.Check Attendance");
             System.out.println("4.Get Percentage");
-            System.out.println("Exit");
+            System.out.println("5.Exit");
             System.out.print("Choose an option: ");
             int choice = sc.nextInt();
             sc.nextLine();
@@ -94,18 +94,8 @@ public class StudentAtendanceManager {
                 System.out.println("Exiting Attendancce Manager");
                 break;
 
-                }
-                
-
-                }
-
-                // default:
-                // System.out.println("Invalid option");
-
             }
-           
-        }
-//         sc.close();
-//     }
-    
-// }
+         }
+     }  
+}
+
